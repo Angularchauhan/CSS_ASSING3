@@ -1,0 +1,113 @@
+<!Doctype HTML>
+<html>
+	<head>
+			<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+            <link href="css_assign3.css" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+	</head>
+
+	<body>
+
+
+		<!-- 14 Create DIV element apply float left , create 2nd DIV apply float right. Now create span element and this span should be in separate line.
+		Observation : Height and width was applied to span element. even after I gave Display:block-inlie;-->
+		<div class="float_left">
+			This Div is float to left.
+		</div>
+
+		<div class = "float_right">
+			This Div is float to right.
+		</div>
+
+		<span class="span_next">
+			This is Span to be shown in next line.
+		</span>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- 15: Create DIV and give example for all�.
+
+			descendant selector (space)
+			child selector (>)
+			adjacent sibling selector (+)
+			general sibling selector (~)-->
+
+		<!-- descendant selector (space) -->
+		<Div class="Ascendant">
+				<p>This is Paragraph 1</p>
+
+				<p>This is Paragraph 2</p>
+
+				<p>This is paragraph 3</p>
+
+				<span>
+					<p> This is paragraph in Span.</p>
+				</span>
+
+				<span> This is span element</span>
+		</Div>
+
+		<br>
+		<hr>
+		<br>
+		<!-- child selector (>) -->
+
+		<Div class="child_selector">
+				<p>This is Paragraph 1</p>
+
+				<p>This is Paragraph 2</p>
+
+				<p>This is paragraph 3</p>
+
+				<span>
+					<p> This is paragraph in Span.</p>
+				</span>
+				<span> This is span element</span>
+		</Div>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- adjacent sibling selector (+)-->
+		<Div class="Sibling_selector">
+				<p>This is Paragraph 1</p>
+
+				<p>This is Paragraph 2</p>
+
+				<p>This is paragraph 3</p>
+
+				<span>
+					<p> This is paragraph in Span.</p>
+				</span>
+				
+		</Div>
+		<p> This is paragraph 4: Outside Div element.</p>
+
+		<br>
+		<hr>
+		<br>
+
+		<!--general sibling selector (~)-->
+		<Div class="general_Sibling_selector">
+				<p>This is Paragraph 1</p>
+
+				<p>This is Paragraph 2</p>
+
+				<p>This is paragraph 3</p>
+
+				<span>
+					<p> This is paragraph in Span.</p>
+				</span>
+				
+		</Div>
+		<p> This is paragraph 4: Outside Div element.</p>
+		<Div>This is Div element.</Div>
+		<p> This is paragraph 5: Outside Div element.</p>
+	</body>
+</html>
